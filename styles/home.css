@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #0f172a;
+  color: #ffffff;
+}
+header{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-weight: bold;
+  font-size: medium;
+}
+nav a{
+  color: #cbd5e1;
+  text-decoration: none;
+}
+.botones-nave{
+   margin-left: 15px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.publicar{
+  background-color: #0ea5e9;
+  color: white;
+}
+.inicio{
+  background-color: #334155;
+  color: white;
+}
+.hero{
+  background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+  padding: 100px;
+  }
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(15, 23, 42, 0.8);
+}
+.hero-contenido {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: auto;
+}
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.hero p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #cbd5e1;
+}
+.barra-busqueda{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.barra-busqueda input {
+  width: 60%;
+  padding: 12px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  font-size: 18px;
+  background-color: #0f172a;
+}
+.barra-busqueda button {
+  padding: 12px;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
+.seccion2 {
+  padding: 60px ;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section p {
+  color: #cbd5e1;
+  margin-bottom: 40px;
+}
+
+.titulo-cajas {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-caja123{
+  background-color: #1e293b;
+  padding: 30px;
+  border-radius: 10px;
+  width: 280px;
+  text-align: center;
+}
+
+.titulo-caja123 h3 {
+  margin: 15px 0 10px;
+  font-size: 19px;
+}
+
+.titulo-caja123 p {
+  color: #94a3b8;
+  font-size: 20px;
+}
+footer{
+  padding: 20px;
+  text-align: center;
+  color: #64748b;
+  }

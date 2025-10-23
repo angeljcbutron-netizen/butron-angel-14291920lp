@@ -1,0 +1,98 @@
+body {
+  background-color: #0f172a;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.alinear {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+.cv {
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+}
+.foto{
+  width: 32px;
+  height: 32px;
+}
+.hero {
+  text-align: center;
+  padding: 20px ;
+}
+.hero input {
+  width: 50%;
+  padding: 10px;
+  margin: 20px ;
+  border: none;
+}
+.filtros select {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+}
+.cuadros {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  
+}
+.trabajo {
+  background-color: #1e293b;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.trabajo h3 {
+  margin: 5px;
+}
+
+.trabajo .empresa {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.trabajo button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+.paginas {
+  text-align: center;
+  padding: 20px;
+}
+.paginas button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #3b82f6;
+  padding: 15px ;
+  cursor: pointer;
+}
+
+.paginas .activo {
+  background-color: #3b82f6;
+  color: white;
+}
